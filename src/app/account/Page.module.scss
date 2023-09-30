@@ -1,0 +1,43 @@
+.container {
+  @apply h-full;
+}
+
+.breadcrumbs {
+  @apply text-myGray text-[10px] font-medium;
+  .breadcrumbs {
+    @apply underline;
+  }
+}
+
+.blockBtn {
+  @apply h-full flex flex-col items-center justify-center gap-4 pb-8 max-w-[430px] mx-auto;
+}
+
+.btn {
+  @apply w-full text-white font-bold font-montserrat text-sm flex items-center justify-center py-6 rounded-[50px];
+}
+
+.loginBtn {
+  @apply bg-linear-gradient-loginBtn;
+}
+
+.regBtn {
+  @apply bg-linear-gradient-regBtn;
+}
+
+//.menu {
+//  @apply h-full flex justify-center items-center flex-col gap-4;
+//  a {
+//    @apply text-myBlue font-montserrat font-bold text-3xl;
+//  }
+//
+//  a:hover {
+//    @apply underline;
+//  }
+//
+//  a:last-child {
+//    @apply text-myOrange
+//  }
+//}
+
+

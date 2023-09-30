@@ -1,0 +1,12 @@
+.spinner {
+  @apply w-28 h-28 relative;
+  div {
+    @apply w-full h-full border-[10px] border-solid border-transparent border-t-myBlue rounded-full
+    absolute animate-spinner;
+  }
+
+  div:nth-of-type(2) {
+    @apply border-[10px] border-solid border-transparent border-b-myOrange
+    animate-spinnerTwo;
+  }
+}

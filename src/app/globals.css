@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[class*="_container"] {
+    @apply max-w-[1000px] mx-auto px-2 mobile:px-7;
+}

@@ -1,0 +1,60 @@
+.wrapper {
+  @apply h-screen w-screen fixed top-0 left-0 bg-popup-opacity z-50;
+}
+
+.container {
+  @apply bg-linear-gradient-popup mt-12 mx-7 py-7 px-4 rounded-[35px] relative max-w-[375px] mobile:mx-auto;
+}
+
+.errorsAuth {
+  @apply absolute top-28 left-1/2 content-none text-red-400 font-montserrat -translate-x-1/2 text-[14px];
+}
+
+.form {
+  @apply mt-12;
+}
+
+.closeBtnWrapper {
+  @apply absolute top-0 right-0 content-none -translate-y-1/4 translate-x-1/4;
+}
+
+.closeBtn {
+  @apply w-10 h-10 relative bg-myOrange flex justify-center items-center rounded-full
+  before:h-0.5 before:w-1/2 before:bg-titleColor before:absolute before:rounded-xl before:rotate-45 before:-translate-y-1/2 before:top-1/2
+  after:h-0.5 after:w-1/2 after:bg-titleColor after:absolute after:rounded-xl after:-rotate-45 after:-translate-y-1/2 after:top-1/2;
+}
+
+.title {
+  @apply text-white font-montserrat text-[26px] font-bold text-center mt-8;
+}
+
+.label {
+  @apply text-white font-montserrat text-[14px] font-bold flex flex-col mt-5 relative px-6;
+  input {
+    @apply mt-2 text-[14px] text-titleColor py-3 rounded-[22.5px] pl-14 relative;
+  }
+}
+
+.textError {
+  @apply text-xs text-red-400 mt-1 px-6;
+}
+
+.linkPassword {
+  @apply text-linkColor text-xs mt-6 underline block px-6;
+}
+
+.agreement {
+  @apply mt-7 flex gap-3 px-6;
+  span {
+    @apply text-white font-montserrat text-xs font-medium -mt-1 w-60;
+    a {
+      @apply underline;
+    }
+  }
+}
+
+.submitBtn {
+  @apply w-11/12 bg-linear-gradient-loginBtn shadow-authBtn text-white font-bold font-montserrat
+  text-sm flex items-center justify-center py-5 rounded-[50px] mt-6 m-auto mb-6 disabled:text-red-400;
+}
+

@@ -1,0 +1,15 @@
+.svg {
+  path {
+    @apply fill-myGray opacity-50;
+  }
+}
+
+.svgActive {
+  path {
+    @apply fill-myBlue;
+  }
+}
+
+.auth {
+  @apply absolute top-0 left-0 content-none mt-[42px] z-10 ml-12;
+}

@@ -1,0 +1,26 @@
+.container {
+  @apply mx-auto relative px-7 max-w-[430px] h-full;
+}
+
+.title {
+  @apply text-titleColor text-2xl absolute top-0 left-8 content-none font-bold mt-7 tracking-wider;
+}
+
+.blockBtn {
+  @apply h-full flex flex-col items-center justify-center gap-4 pb-8;
+}
+
+.btn {
+  @apply w-full text-white font-bold font-montserrat text-sm flex items-center justify-center py-6 rounded-[50px];
+}
+
+.loginBtn {
+  @apply bg-linear-gradient-loginBtn;
+}
+
+.regBtn {
+  @apply bg-linear-gradient-regBtn;
+}
+
+
+

@@ -1,0 +1,8 @@
+.wrapper {
+  @apply h-20 rounded-t-[10px] shadow-footer bg-linear-gradient-footer w-full;
+
+}
+
+.container {
+  @apply flex h-full justify-between items-end;
+}

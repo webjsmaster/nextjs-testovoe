@@ -1,0 +1,98 @@
+.cropper-point {
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    background-color: #4D6AE4;
+    opacity: 1;
+}
+
+.cropper-center {
+    display: none;
+}
+
+.cropper-dashed {
+    display: none;
+}
+
+.cropper-point.point-se {
+    width: 9px;
+    height: 9px;
+    bottom: -6px;
+    right: -6px;
+}
+
+.cropper-point.point-sw {
+    bottom: -6px;
+    left: -6px;
+}
+
+.cropper-point.point-nw {
+    top: -6px;
+    left: -6px;
+}
+
+.cropper-point.point-ne {
+    top: -6px;
+    right: -6px;
+}
+
+.cropper-point.point-s {
+    bottom: -7px;
+}
+
+.cropper-point.point-w {
+    left: -7px;
+}
+
+.cropper-point.point-n {
+    top: -7px;
+}
+
+.cropper-point.point-e {
+    right: -7px;
+}
+
+
+.cropper-point.point-se::before {
+    display: none;
+}
+
+.cropper-drag-box {
+    background-color: #F3F5F5;
+    border-radius: 12px;
+}
+
+.cropper-view-box {
+    /*outline: 1px solid #4D6AE4;*/
+    outline-color: rgba(51, 153, 255, 0);
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.cropper-wrap-box {
+    opacity: 0;
+}
+
+.cropper-line {
+    opacity: 1;
+    background-color: #4D6AE4;
+}
+
+.cropper-line.line-e, .cropper-line.line-w {
+    width: 1px;
+}
+
+.cropper-line.line-n, .cropper-line.line-s {
+    height: 1px;
+}
+
+.cropper-face {
+    background-color: inherit;
+}
+
+.cropper-crop-box {
+    
+}
+
+
+

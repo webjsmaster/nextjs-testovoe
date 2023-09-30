@@ -1,0 +1,46 @@
+.container {
+  @apply h-full max-w-[430px] font-montserrat;
+}
+
+.breadcrumbs {
+  @apply text-myGray text-[10px] font-medium;
+  span {
+    @apply underline;
+  }
+}
+
+.title {
+  @apply text-titleColor text-[26px] font-bold mt-5 font-montserrat;
+}
+
+.subtitle {
+  @apply text-titleColor text-[14px] font-medium mt-9;
+}
+
+.button {
+  @apply bg-linear-gradient-regBtn w-full rounded-[50px] shadow-authBtn mt-9 text-white text-[14px]
+  font-bold relative py-5 text-center cursor-pointer;
+  input {
+    @apply bg-amber-400 w-full h-full absolute top-0 left-0 content-none hidden;
+  }
+
+  div {
+    @apply absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-[80px]
+  }
+}
+
+.error {
+  @apply text-xl text-red-400 mt-5 px-6;
+}
+
+.success {
+  @apply text-xs text-green-400 mt-1 px-6;
+}
+
+.blockBtn {
+  @apply flex flex-col items-center justify-center;
+}
+
+.canselBtn {
+  @apply bg-linear-gradient-canselBtn shadow-authBtn text-titleColor;
+}

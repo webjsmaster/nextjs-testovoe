@@ -1,0 +1,7 @@
+.wrapper {
+  @apply flex flex-col items-center mb-3 cursor-pointer;
+}
+
+.text {
+  @apply text-[12px] font-medium mt-1;
+}

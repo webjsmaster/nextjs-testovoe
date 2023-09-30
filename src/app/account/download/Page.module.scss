@@ -1,0 +1,19 @@
+.container {
+  @apply h-full flex justify-center items-center max-w-[430px];
+}
+
+.button {
+  @apply bg-linear-gradient-regBtn w-full rounded-[50px] shadow-authBtn mt-2 text-white text-[14px]
+  font-bold relative py-5 text-center cursor-pointer max-w-[360px];
+}
+
+.imageWrapper {
+  @apply max-w-[430px] rounded-full overflow-hidden;
+  image {
+    @apply w-full h-full;
+  }
+}
+
+.error {
+  @apply text-red-400 text-2xl font-montserrat;
+}
